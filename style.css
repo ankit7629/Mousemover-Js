@@ -1,0 +1,37 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.box{
+  border: 1px solid black;
+  padding: 30px 40px;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  margin-right: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+h4{
+  position: absolute;
+  top: -30px;
+  left: 5px; 
+  font-size: 12px;
+  color: black;
+}
